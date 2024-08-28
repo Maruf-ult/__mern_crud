@@ -1,4 +1,4 @@
-# MERN CRUD Project
+# MERN CRUD PROJECT
 
 Welcome to MERN (MongoDB, Express, React, Node.js) CRUD web application! This project demonstrates seamless Create, Read, Update, and Delete (CRUD) functionality.
 
