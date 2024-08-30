@@ -34,7 +34,7 @@ Welcome to MERN (MongoDB, Express, React, Node.js) CRUD web application! This pr
 **2. Open the terminal in the repository folder:**
  
    ``` 
-   cd folder-name
+   cd __mern_crud
    ```
 
 **3. Install backend dependencies:**
