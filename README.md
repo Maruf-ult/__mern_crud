@@ -39,7 +39,8 @@ Welcome to MERN (MongoDB, Express, React, Node.js) CRUD web application! This pr
 
 **3. Install backend dependencies:**
 
-   ``` 
+   ```
+   cd server
    npm install
    ```
 
