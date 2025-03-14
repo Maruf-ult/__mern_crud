@@ -24,7 +24,7 @@ function UpdateItem() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const UpdateUser = await axios.put(`http://localhost:3000/api/update/${id}`, value);
+      const UpdateUser = await axios.put(`https://mern-crud-wwzh.onrender.com/api/update/${id}`, value);
       const response = UpdateUser.data;
       console.log(response);
       if (response.success) {
