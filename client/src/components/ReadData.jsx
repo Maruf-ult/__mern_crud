@@ -17,7 +17,7 @@ function ReadData() {
   useEffect(() => {
         async function FetchData() {
       try {
-                const findUser = await axios.get("http://localhost:3000/api/read");
+                const findUser = await axios.get("https://mern-crud-wwzh.onrender.com/api/read");
                 const response = findUser.data;
                 console.log(response);
                 setData(response);
