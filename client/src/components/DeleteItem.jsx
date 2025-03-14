@@ -10,7 +10,7 @@ function DeleteItem() {
 
   const handleDelete = async () => {
     try {
-      const deleteUser = await axios.delete(`http://localhost:3000/api/delete/${id}`);
+      const deleteUser = await axios.delete(`https://mern-crud-wwzh.onrender.com/api/delete/${id}`);
       const response = deleteUser.data;
       console.log(response);
       if (response.success) {
