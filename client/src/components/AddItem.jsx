@@ -27,7 +27,7 @@ function AddItem() {
     e.preventDefault();
     try {
       const addUser = await axios.post(
-        "http://localhost:3000/api/create",
+        "https://mern-crud-wwzh.onrender.com/api/create",
         value
       );
       const response = addUser.data;
